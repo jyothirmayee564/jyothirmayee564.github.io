@@ -4,7 +4,8 @@ h2{
 table, th, td {
     border: 1px solid white;
     border-collapse: collapse;
+    padding: 20px;
 }
 th, td {
-    background-color: #96D4D4;
+    border-color: #96D4D4;
 }
