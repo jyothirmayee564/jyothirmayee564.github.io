@@ -3,18 +3,6 @@ h2{
 }
 
 table, th, td {
-    border: 1px solid ;
+    border: 1px solid black;
     border-collapse: collapse;
-}
-
-th { 
-    background-color:red;
-    color:white;
-}
-td, th { 
-    padding:5px;
-    border:1px solid;
-}
-p{
-    text-align: center;
 }
