@@ -2,16 +2,18 @@ h2{
     color: blue;
 }
 
-th{
-    padding: 20px;
-    color: red;
-    background-color: aquamarine;
-    border-bottom: 1px solid black;
+table, th, td {
+    border: 1px solid ;
+    border-collapse: collapse;
 }
-td,tr{
-    padding:20px;
-    border-bottom: 1px solid black;
-    border-right: 1px solid;
+
+th { 
+    background-color:red;
+    color:white;
+}
+td, th { 
+    padding:5px;
+    border:1px solid;
 }
 p{
     text-align: center;
