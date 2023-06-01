@@ -5,12 +5,19 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
-
+table {
+    border-collapse: collapse;
+    width: 90%;
+  }
 th { 
     background-color:aquamarine;
     color:red;
 }
-td, th { 
-    padding: 5px;
-    border:1px solid #000;
+th, td {
+    text-align: center;
+    padding: 11px;
+}
+th,td,ol{
+    text-align: left;
+    padding: 11px;
 }
