@@ -5,8 +5,8 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 30%;
     padding-left: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     transition: 0.7s;
 }
 .card:hover{
