@@ -21,3 +21,26 @@ th,td,ol{
     text-align: left;
     padding: 11px;
 }
+.container{
+    margin-left: 250px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card-image{
+    width: 100%;
+}
+.card-body {
+    padding: 2px 16px;
+}
+.card-body-title{
+    font-weight: bold;
+}
+.card-body-designation{
+    font-style: italic;
+}
