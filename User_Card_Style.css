@@ -1,10 +1,14 @@
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
 .name{
     font-size: 40px;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
 }
-.designation{
+.card-body-designation{
     font-size: 25px;
     font-style: italic;
     margin-top: 0;
