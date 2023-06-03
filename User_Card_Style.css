@@ -13,6 +13,9 @@
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2);
 
 }
+.card-body {
+    padding: 2px 16px;
+}
 .card-body-image{
     font-size: 40px;
     font-weight: bold;
