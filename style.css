@@ -34,7 +34,7 @@ th,td,ol{
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .card-image{
-    width: 100%;
+    width: 80%;
 }
 .card-body {
     padding: 2px 16px;
