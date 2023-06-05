@@ -2,7 +2,7 @@
 console.log("Hi,Alert Message");
 
 var data1={image : "recentPic.jpeg",name : "Jyothirmayee Kandiboina", designation:"Student"};
-var data2={image : "abc.jpg",name : "Jyothi", designation:"Intern"};
+var data2={image : "abc.jpg",name : "Jyothi", designation:"Student"};
 var isdata1 = true;
 var displaydata;
 var changemypic = function(){
