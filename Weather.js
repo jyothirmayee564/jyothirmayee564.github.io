@@ -79,31 +79,6 @@ function dateManage(dateArg) {
     return `${date} ${month} (${day}) , ${year}`
 }
 
-function changeBg(status) {
-    if (status === 'Clouds') {
-        document.body.style.backgroundImage = 'url(img/clouds.jpg)';
-    } else if (status === 'Rain') {
-        document.body.style.backgroundImage = 'url(img/rainy.jpg)';
-    } else if (status === 'Clear') {
-        document.body.style.backgroundImage = 'url(img/clear.jpg)';
-    }
-    else if (status === 'Snow') {
-        document.body.style.backgroundImage = 'url(img/snow.jpg)';
-    }
-    else if (status === 'Sunny') {
-        document.body.style.backgroundImage = 'url(img/sunny.jpg)';
-    } else if (status === 'Thunderstorm') {
-        document.body.style.backgroundImage = 'url(img/thunderstrom.jpg)';
-    } else if (status === 'Drizzle') {
-        document.body.style.backgroundImage = 'url(img/drizzle.jpg)';
-    } else if (status === 'Mist' || status === 'Haze' || status === 'Fog') {
-        document.body.style.backgroundImage = 'url(img/mist.jpg)';
-    }
-
-    else {
-        document.body.style.backgroundImage = 'url(img/bg.jpg)';
-    }
-}
 
 function getIconClass(classarg) {
     if (classarg === 'Rain') {
